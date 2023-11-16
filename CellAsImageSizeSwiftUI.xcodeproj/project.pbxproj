@@ -11,6 +11,8 @@
 		566FBCDA2B049B71006CE521 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566FBCD92B049B71006CE521 /* ContentView.swift */; };
 		566FBCDC2B049B72006CE521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 566FBCDB2B049B72006CE521 /* Assets.xcassets */; };
 		566FBCDF2B049B72006CE521 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 566FBCDE2B049B72006CE521 /* Preview Assets.xcassets */; };
+		566FBCE92B049E9D006CE521 /* DogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566FBCE82B049E9D006CE521 /* DogModel.swift */; };
+		566FBCEC2B04A1BD006CE521 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566FBCEB2B04A1BD006CE521 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		566FBCD92B049B71006CE521 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		566FBCDB2B049B72006CE521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		566FBCDE2B049B72006CE521 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		566FBCE82B049E9D006CE521 /* DogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogModel.swift; sourceTree = "<group>"; };
+		566FBCEB2B04A1BD006CE521 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		566FBCD62B049B71006CE521 /* CellAsImageSizeSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				566FBCEA2B04A19D006CE521 /* ViewModel */,
+				566FBCE72B049E85006CE521 /* Model */,
 				566FBCD72B049B71006CE521 /* CellAsImageSizeSwiftUIApp.swift */,
 				566FBCD92B049B71006CE521 /* ContentView.swift */,
 				566FBCDB2B049B72006CE521 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				566FBCDE2B049B72006CE521 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		566FBCE72B049E85006CE521 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				566FBCE82B049E9D006CE521 /* DogModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		566FBCEA2B04A19D006CE521 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				566FBCEB2B04A1BD006CE521 /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				566FBCEC2B04A1BD006CE521 /* ViewModel.swift in Sources */,
+				566FBCE92B049E9D006CE521 /* DogModel.swift in Sources */,
 				566FBCDA2B049B71006CE521 /* ContentView.swift in Sources */,
 				566FBCD82B049B71006CE521 /* CellAsImageSizeSwiftUIApp.swift in Sources */,
 			);
